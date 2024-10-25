@@ -10,8 +10,8 @@ def read_file(input):
                 for j in range(int( int(x) / 3)):
                     print(h, h, h, end=' ')
                     h+=1
-                print("\n")
+                print("")
 
 
 if __name__ == '__main__':
-    read_file('level2_1.in.txt')
+    read_file('level2_5.in.txt')
