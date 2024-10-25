@@ -19,13 +19,13 @@ def read_file(input):
                         matrix[j][i] = h
                         matrix[j+1][i] = h
                         matrix[j+2][i] = h
-                        h+=1                     
+                        h+=1
 
             for i in range(y):
                 for j in range(x):
                     print(matrix[i][j], end=' ')
                 print("")
-                    
+
 
 if __name__ == '__main__':
-    read_file('level3_1.in.txt')
+    read_file('level3_2.in.txt')
