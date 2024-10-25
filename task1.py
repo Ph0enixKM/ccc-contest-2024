@@ -8,4 +8,8 @@ def read_file(input):
             print(int(int(x) * int(y) / 3))
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     read_file('level1_5.in.txt')
+=======
+    read_file('level1_3.in.txt')
+>>>>>>> e4957c744fc116e816d2f8eaedb05b30d2aec128
