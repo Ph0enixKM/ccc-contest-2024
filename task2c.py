@@ -9,6 +9,7 @@ def read_file(input):
         for i in range(y):
             for j in range(int (x / 3)):
                 print(h, h, h, end=' ')
+                h+=1
             print()
 
 
