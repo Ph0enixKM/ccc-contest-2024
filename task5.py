@@ -9,19 +9,17 @@ def read_file(input):
             last = 0
 
             for i in range(0, y, 2):
-                for j in range(0, (x-2), 4):
+                for j in range(0, (x-1), 3):
                     matrix[i][j] = 'X'
                     matrix[i][j+1] = 'X'
-                    matrix[i][j+2] = 'X'
                     last = j
 
 
-            z = x - (x % 4)
-            for j in range(last + 4, x, 2):
-                for i in range(0, y-2, 4):
+            z = x - (x % 3)
+            for j in range(last + 3, x, 2):
+                for i in range(0, y-1, 3):
                     matrix[i][j] = 'X'
                     matrix[i+1][j] = 'X'
-                    matrix[i+2][j] = 'X'
 
             for i in range(y):
                 for j in range(x):
@@ -31,4 +29,4 @@ def read_file(input):
 
 
 if __name__ == '__main__':
-    read_file('level4_4.in.txt')
+    read_file('level5_1.in.txt')
